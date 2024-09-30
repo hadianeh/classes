@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CSE 240D</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div id="intro">
+        <h2> CSE 240D: System Design for Deep Learning (Fall 2024)</h2>
+        <br>
+        <h3>Instructor: <a href="http://cseweb.ucsd.edu/%7Ehadi">Hadi Esmaeilzadeh</a></h3>
+        <br>
+        <h5>Email: hadi [AT] ucsd [DOT] edu</h5>
+        <h5>Office: CSE 3228 </h5>
+        <h5>Office hours: by appointment</h5>
+        <h5><br></h5>
+        <h5>TA:</h5>
+        <h5>
+          <a href="https://christopherpriebe.github.io/">Christopher Priebe</a> cpriebe [AT] ucsd [DOT] edu
+        </h5>
+        <h5>Office hours: by appointment in CSE 3254</h5>
+      </div>
+      <div id="navbar">
+        <ul class="menu">
+          <li><a href="index.html">Syllabus</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="presentation.html">Presentation</a></li>
+          <li><a href="critique.html">Critique</a></li>
+          <li><a href="project.html">Project</a></li>
+        </ul>
+      </div>
+      <!-- Main Content -->
+      <div id="leftcolumn">
+        <p>
+          This is the anticipated schedule for the course.
+          The schedule is subject to change.
+          Each reading is annotated with a tag encased in square brackets.
+          The tags are as follows:
+          <ul>
+            <li>[Read]: Required reading</li>
+            <li>[Optional]: Optional reading</li>
+            <li>[C&C]: Write and submit a compare and contrast (C&C) for the two papers</li>
+            <li>[Critique]: Write and submit a criqitue for the paper</li>
+            <li>[SP]: A student will present this work in class.</li>
+          </ul>
+        For more information on critiques and C&Cs, please refer to the <a href="critique.html">critique</a> page.
+        </p>
+        <table class="tg">
+          <tr>
+            <th class="tg-14gg"></th>
+            <th class="tg-14gg">Lecture</th>
+            <th class="tg-14gg">Date</th>
+            <th class="tg-14gg">Presenters</th>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">1</td>
+            <td class="tg-jkmc">Dark silicon and the Need for Acceleration</br>
+            <ul>
+              <li>[Read] <a href="https://dl.acm.org/doi/10.1145/2000064.2000108">Dark Silicon and the End of Multicore Scaling</a></li>
+              <li>[Optional] <a href="https://bpb-us-w2.wpmucdn.com/sites.coecis.cornell.edu/dist/7/587/files/2023/06/ESMAEILZADEH_2011_DARK.pdf">RETROSPECTIVE: Dark Silicon and the End of Multicore Scaling</a></li>
+            </ul>
+            </td>
+            <td class="tg-buh4">09/30/2024</td>
+            <td class="tg-buh4">Hadi</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">2</td>
+            <td class="tg-jkmc">TABLA</br>
+            <ul>
+              <li>[Read] <a href="https://ieeexplore.ieee.org/abstract/document/7446050">TABLA: A Unified Template-Based Framework for Accelerating Statistical Machine Learning</a></li>
+            </ul>
+            <td class="tg-buh4">10/02/2024</td>
+            <td class="tg-buh4">Hadi</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">3, 4</td>
+            <td class="tg-jkmc">Historical Perspective on Neural Networks</br>
+            <ul>
+              <!-- <li>[Optional] <a href="">Machine Learning Basics: Stochastic Gradient Descent and more</a></li> -->
+            </ul>
+            </td>
+            <td class="tg-buh4">10/07/2024</br>10/09/2024</td>
+            <td class="tg-buh4">Hadi</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">5</td>
+            <td class="tg-jkmc">Introduction to DNN Accelerators</br>
+            <ul>
+              <li>[C&C] [SP] <a href="https://dl.acm.org/doi/10.1109/ISCA.2016.40">Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks</a></li>
+              <li>[C&C] [SP] <a href="https://dl.acm.org/doi/10.1145/3352460.3358302">Simba: Scaling Deep-Learning Inference with Multi-Chip-Module-Based Architecture</a></li>
+            </ul>
+            <td class="tg-buh4">10/16/2024</td>
+            <td class="tg-buh4">TBD</br></br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">6</td>
+            <td class="tg-jkmc">Bit-Flexible Acceleration of DNNs</br>
+            <ul>
+              <li>[C&C] [SP] <a href="https://dl.acm.org/doi/10.1109/ISCA.2018.00069">Bit Fusion: Bit-Level Dynamically Composable Architecture for Accelerating Deep Neural Networks</a></li>
+              <li>[C&C] [SP] <a href="https://dl.acm.org/doi/10.5555/3195638.3195661">Stripes: Bit-Serial Deep Neural Network Computing</a></li>
+            </ul>
+            <td class="tg-buh4">10/21/2024</td>
+            <td class="tg-buh4">TBD</br></br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">7</td>
+            <td class="tg-jkmc">Analog Acceleration of DNNs</br>
+            <ul>
+              <li>[C&C] [SP] <a href="https://dl.acm.org/doi/abs/10.1145/3410463.3414634">Mixed-Signal Charge-Domain Acceleration of Deep Neural Networks through Interleaved Bit-Partitioned Arithmetic</a></li>
+              <li>[C&C] [SP] <a href="">TBD</a></li>
+            </ul>
+            <td class="tg-buh4">10/23/2024</td>
+            <td class="tg-buh4">TBD</br></br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">8</td>
+            <td class="tg-jkmc">Multi-Tenant Acceleration of DNNs</br>
+            <ul>
+              <li>[C&C] [SP] <a href="https://ieeexplore.ieee.org/document/9251939">Planaria: Dynamic Architecture Fission for Spatial Multi-Tenant Acceleration of Deep Neural Networks</a></li>
+              <li>[C&C] [SP] <a href="https://ieeexplore.ieee.org/abstract/document/9065590">PREMA: A Predictive Multi-Task Scheduling Algorithm For Preemptible Neural Processing Units</a></li>
+            </ul>
+            <td class="tg-buh4">10/28/2024</td>
+            <td class="tg-buh4">TBD</br></br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">9</td>
+            <td class="tg-jkmc">Sparse Acceleration of DNNs</br>
+            <ul>
+              <li>[C&C] [SP] <a href="">TBD</a></li>
+              <li>[C&C] [SP] <a href="">TBD</a></li>
+            </ul>
+            <td class="tg-buh4">10/30/2024</td>
+            <td class="tg-buh4">TBD</br></br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">10</td>
+            <td class="tg-jkmc">TPU</br>
+            <ul>
+              <li>[C&C] [SP] <a href="https://dl.acm.org/doi/10.1145/3079856.3080246">In-Datacenter Performance Analysis of a Tensor Processing Unit</a></li>
+              <li>[C&C] [SP] <a href="https://dl.acm.org/doi/abs/10.1145/3579371.3589350">TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings</a></li>
+            </ul>
+            <td class="tg-buh4">11/04/2024</td>
+            <td class="tg-buh4">TBD</br></br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">11</td>
+            <td class="tg-jkmc">Acceleration of Emerging DNNs</br>
+            <ul>
+              <li>[Critique] [SP] <a href="https://dl.acm.org/doi/10.1145/3620665.3640365">Tandem Processor: Grappling with Emerging Operators in Neural Networks</a></li>
+              <li><a href="https://actlab-genesys.github.io/">GeneSys</a></li>
+            </ul>
+            <td class="tg-buh4">11/06/2024</td>
+            <td class="tg-buh4">TBD</br></br>Rohan Mahapatra,</br>Hanyang Xu,</br>Christopher Priebe</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">12</td>
+            <td class="tg-jkmc">Compilation and Optimization of DNNs</br>
+            <ul>
+              <li>[C&C] [SP] <a href="https://www.usenix.org/conference/osdi18/presentation/chen">TVM: An Automated End-to-End Optimizing Compiler for Deep Learning</a></li>
+              <li>[C&C] [SP] <a href="">TBD</a></li>
+            </ul>
+            <td class="tg-buh4">11/13/2024</td>
+            <td class="tg-buh4">TBD</br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">13</td>
+            <td class="tg-jkmc">Compilation of Cross-Domain Applications for Accelerators</br>
+            <ul>
+              <li>[C&C] [SP] <a href="https://ieeexplore.ieee.org/document/9407145">A Computational Stack for Cross-Domain Acceleration</a></li>
+              <li>[C&C] [SP] <a href="https://dl.acm.org/doi/10.1109/CGO51591.2021.9370308">MLIR: Scaling Compiler Infrastructure for Domain Specific Computation</a></li>
+            </ul>
+            <td class="tg-buh4">11/18/2024</td>
+            <td class="tg-buh4">TBD</br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">14</td>
+            <td class="tg-jkmc">TBD</br>
+            <ul>
+              <li><a href="">TBD</a></li>
+              <li><a href="">TBD</a></li>
+            </ul>
+            <td class="tg-buh4">11/20/2024</td>
+            <td class="tg-buh4">TBD</br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">15</td>
+            <td class="tg-jkmc">TBD</br>
+            <ul>
+              <li><a href="">TBD</a></li>
+              <li><a href="">TBD</a></li>
+            </ul>
+            <td class="tg-buh4">11/25/2024</td>
+            <td class="tg-buh4">TBD</br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">16</td>
+            <td class="tg-jkmc">TBD</br>
+            <ul>
+              <li><a href="">TBD</a></li>
+              <li><a href="">TBD</a></li>
+            </ul>
+            <td class="tg-buh4">12/02/2024</td>
+            <td class="tg-buh4">TBD</br>TBD</td>
+          </tr>
+          <tr>
+            <td class="tg-jkmc">17</td>
+            <td class="tg-jkmc">TBD</br>
+            <ul>
+              <li><a href="">TBD</a></li>
+              <li><a href="">TBD</a></li>
+            </ul>
+            <td class="tg-buh4">12/04/2024</td>
+            <td class="tg-buh4">TBD</br>TBD</td>
+          </tr>
+        </table>
+      </div>
+      <!-- Footer -->
+      <div id="footer"> Last update: September 2024 </div>
+    </div>
+  </body>
+</html>
